@@ -1,0 +1,36 @@
+/**********************************
+Responsive navbar-brand image CSS
+- Remove navbar-brand padding for firefox bug workaround
+- add 100% height and width auto ... similar to how bootstrap img-responsive class works
+***********************************/
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 6px;
+  width: auto;
+}
+
+
+/*************************
+EXAMPLES 2-7 BELOW 
+**************************/
+
+/* EXAMPLE 2 (larger logo) - simply adjust top bottom padding to make logo larger */
+
+.example2 .navbar-brand>img {
+  padding: 7px 15px;
+}
+
+
+
+
+.navbar-nav>li>.dropdown-menu {
+	z-index: 9999;
+}
+
+body {
+  font-family: "Lato";
+}
